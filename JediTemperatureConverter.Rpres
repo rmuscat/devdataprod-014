@@ -1,0 +1,35 @@
+Jedi Temperature Converter for Inter-Galactic Travel
+========================================================
+author: Rob Muscat
+date: 2015.05.23
+
+Introduction
+========================================================
+
+With the increasing investement in commercial space programs, inter-galactic travel is becoming more of a reality. As a result, humans will need the ability to agree on a temperature scale between themselves and alien lifeforms as the situation gets colder.
+We will investigate temperature conversion between,
+- Celcius
+- Fahrenheit
+- Rankine
+- Kelvin
+
+Conversion Factors for Earthians
+========================================================
+
+- $^{\circ}{\mathrm C}$ to $^{\circ}{\mathrm F}$ = $^{\circ}{\mathrm C} \times \frac{9}{5} + 32$
+- $^{\circ}{\mathrm C}$ to Kelvin = $^{\circ}{\mathrm C} \times 273.15$
+- $^{\circ}{\mathrm C}$ to $^{\circ}{\mathrm R}$  = $(^{\circ}{\mathrm C} + 273.15) \times \frac{9}{5}$
+
+
+Common Temperatures
+========================================================
+This file contains some default benchmarks,
+```{r, echo=TRUE}
+benchmarks <- read.csv("~/Desktop/Coursera/14 Developing Data Products/Benchmarks.csv")
+head(benchmarks,1)
+```
+
+
+Conclusion
+========================================================
+We believe this app will assist humans in converting temperature where ever they are in the universe and no matter how cold. Hope you find this useful in your Galactic Journeys.
